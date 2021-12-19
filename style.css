@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box ;
+}
+
+/* header  */
+header {
+    background-color: blue;
+    color:cornsilk
+}
+
+header ul  {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+header ul li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+header a {
+    color:cornsilk;
+    text-decoration: underline;
+}
+
+/* banner */
+
+.banner {
+    margin: 100px 15%;
+    background-color: crimson;
+    height: 500px;
+}
+
